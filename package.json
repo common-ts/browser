@@ -1,0 +1,25 @@
+{
+  "name": "browser-service",
+  "version": "0.0.3",
+  "description": "Browser Service",
+  "main": "./lib/browser.js",
+  "types": "./src/browser.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "devDependencies": {
+    "tslint": "5.10.0",
+    "typescript": "^3.3.3333"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/common-ts/browser"
+  },
+  "keywords": [
+    "browser"
+  ]
+}
